@@ -13,7 +13,7 @@
   }
   
   .react-calendar__tile--leave {
-    background: red !important;
+    background: rgb(0, 198, 0) !important;
     color: white !important;
     border-radius: 5px;
   }
