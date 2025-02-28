@@ -1,10 +1,11 @@
-import LeaveCalendar from "./components/LeaveCalendar.jsx";
+import { BrowserRouter } from "react-router-dom";
+import Calendar from "./components/Calendar";
 
 function App() {
   return (
-    <div>
-      <LeaveCalendar />
-    </div>
+    <BrowserRouter>
+      <Calendar />
+    </BrowserRouter>
   );
 }
 

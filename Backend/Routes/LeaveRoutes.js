@@ -1,5 +1,5 @@
 const express = require("express");
-const { applyLeave, getLeaves, updateLeaveStatus } = require("../controllers/leaveController");
+const { applyLeave, getLeaves, updateLeaveStatus } = require("../controllers/LeaveController");
 
 const router = express.Router();
 
