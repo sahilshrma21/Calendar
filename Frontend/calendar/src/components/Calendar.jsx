@@ -85,7 +85,6 @@ const SchoolCalendar = () => {
             value={selectedDate}
             tileContent={({ date }) => {
               const formattedDate = date.toISOString().split("T")[0];
-              console.log("Rendering Tile for:", formattedDate);
               return events[formattedDate] ? (
                 <p className="text-blue-500 text-xs">Event</p>
               ) : leaves[formattedDate] ? (
